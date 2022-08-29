@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="/Users/yadhubalan/IdeaProjects/QAStudy_POM(failed)" verbose="0">
+    <classes>
+      <class name="VerifyIncorrectUserName">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="verifyIncorrectuserName"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- VerifyIncorrectUserName -->
+      <class name="VerifyIncorrectPassword">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="verifyIncorrectPassword"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- VerifyIncorrectPassword -->
+      <class name="VerifySuccesfullLogin">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="verifySuccesfulLogin"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- VerifySuccesfullLogin -->
+    </classes>
+  </test> <!-- /Users/yadhubalan/IdeaProjects/QAStudy_POM(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
